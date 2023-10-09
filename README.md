@@ -51,22 +51,20 @@ Please enter/replace your details below.
 |-------------|----------------------|
 | Name        | John Smith           |
 | Email       | john.smith@gmail.com |
-| Date        | 2022-03-21           |
+| Date        | 2023-10-01           |
 | Start Time  | 14:00                |
-| Finish Time | 16:15                |
+| Finish Time | 16:00                |
 
 ---
 
 ## Instructions
 
-We ask that you spend two hours to do this test and start by taking a Fork of this repository.
+We ask that you spend no more than two hours to complete this exercise, and start by taking a fork of this repository.
 
-The currently implemented features are as follows:
+The intial project includes:
 
-- List of students on the home page
-- API endpoint to return the full list of students
-
-These should be visible when opening up the initial application within the web browser.
+- A wireframe angular project with routing and (component) page ready to list students
+- An API endpoint able to serve student details
 
 > As you complete each item in the list below, please ensure that you mark it off by changing the `[]` to a `[x]`.
 >
