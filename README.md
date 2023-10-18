@@ -52,8 +52,8 @@ Please enter/replace your details below.
 | Name        | Alex Verinder           |
 | Email       | aeverinder@gmail.com |
 | Date        | 2023-10-18           |
-| Start Time  | 14:00                |
-| Finish Time | 16:00                |
+| Start Time  | 16:00                |
+| Finish Time | 18:15               |
 
 ---
 
