@@ -1,16 +1,34 @@
+<div class="search-section">
+    <input type="text" [(ngModel)]="searchTerm" placeholder="Search by First Name or Last Name">
+    <button (click)="searchStudents()">Search</button>
+</div>
+
 <table class="table table-striped">
     <thead>
-    <tr>
-        <th>First Name</th>
-        <th>Last Name</th>
-        <th>Subject</th>
-    </tr>
+        <tr>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Subject</th>
+            <th>Grade</th>
+        </tr>
     </thead>
     <tbody>
-    <tr>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
+        <tr *ngFor="let student of students" (click)="selectStudent(student)">
+            <td>{{student.first_name}}</td>
+            <td>{{student.last_name}}</td>
+            <td>{{student.subject}}</td>
+            <td [ngStyle]="{'color': getGradeColor(student.grade) }">{{student.grade}}</td>
+        </tr>
     </tbody>
 </table>
+
+<!-- Section for Full Details of Selected Student -->
+<div *ngIf="selectedStudent">
+    <h3>Selected Student Details</h3>
+    <p><strong>ID:</strong> {{selectedStudent.id}}</p>
+    <p><strong>First Name:</strong> {{selectedStudent.first_name}}</p>
+    <p><strong>Last Name:</strong> {{selectedStudent.last_name}}</p>
+    <p><strong>Email:</strong> {{selectedStudent.email}}</p>
+    <p><strong>Subject:</strong> {{selectedStudent.subject}}</p>
+    <p><strong>Grade:</strong> {{selectedStudent.grade}}</p>
+</div>

@@ -49,9 +49,9 @@ Please enter/replace your details below.
 
 |             |                      |
 |-------------|----------------------|
-| Name        | John Smith           |
-| Email       | john.smith@gmail.com |
-| Date        | 2023-10-01           |
+| Name        | Alex Verinder           |
+| Email       | aeverinder@gmail.com |
+| Date        | 2023-10-18           |
 | Start Time  | 14:00                |
 | Finish Time | 16:00                |
 
@@ -74,22 +74,22 @@ The intial project includes:
 > Please ensure you add a commit after each step is completed.
 >
 
-- [ ] Update `./app/src/app/service/students.service.ts` to return 3 students from `getStudents`
-- [ ] Fetch students from the `StudentsService` within the `StudentsComponent` and list them into the table
+- [x] Update `./app/src/app/service/students.service.ts` to return 3 students from `getStudents`
+- [x] Fetch students from the `StudentsService` within the `StudentsComponent` and list them into the table
   provided
-- [ ] Add a column to display the student grades. Style the display of the grades so that it has three colorations:
+- [x] Add a column to display the student grades. Style the display of the grades so that it has three colorations:
     - Green: average grade greater than 80%
     - Orange: average grade less than 80% and greater than 50%
     - Red: average grade less than 50%
-- [ ] Update `StudentsService` to pull students from the API (this should be available
+- [x] Update `StudentsService` to pull students from the API (this should be available
   via `http://127.0.0.1:8000/api/students/`)
-- [ ] Allow a student to be selected from the list, and display their full details (on the existing page, or a new page
+- [x] Allow a student to be selected from the list, and display their full details (on the existing page, or a new page
   inc. `id` and `email`)
 
 **Extras for if you have time:**
 
-- [ ] Update the API to support searching of students; allowing partial matches on first_name OR last_name
-- [ ] Add a search component to the app, above the table, allowing the students to be filtered using the new search
+- [x] Update the API to support searching of students; allowing partial matches on first_name OR last_name
+- [x] Add a search component to the app, above the table, allowing the students to be filtered using the new search
   capability
 
 ---
